@@ -149,7 +149,9 @@
        }
        
        .apresentacao__imagem {
-         width: 25%;
+         padding:auto;
+         width:auto;
+         
 
        }
     }
