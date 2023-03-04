@@ -131,6 +131,8 @@
         
         .cabecalho { 
             padding: 10%;
+            width: auto;
+            
             
         }
         .cabecalho__menu {
