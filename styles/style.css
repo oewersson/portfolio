@@ -127,7 +127,7 @@
         font-weight: 400;
     }
 
-     @media (min-width: 250px ) and (max-width: 800px) {
+     @media (min-width: 50px ) and (max-width: 1200px) {
         
         .cabecalho { 
            font-size: var (--tamanho-da-fonte-terciaria);
