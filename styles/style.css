@@ -10,8 +10,8 @@
   --fonte-secundaria:'Montserrat', sans-serif;
 
   --tamanho-da-fonte-primaria:'24px';
-  --tamanho-da-fonte-secundaria;
-  --tamanho-da-fonte-terciaria;
+  --tamanho-da-fonte-secundaria:'18px';
+  --tamanho-da-fonte-terciaria: '16px';
 }
 
 * {
@@ -130,6 +130,7 @@
      @media (min-width: 250px ) and (max-width: 800px) {
         
         .cabecalho { 
+           font-size: var (--tamanho-da-fonte-terciaria);
             padding: 10%;
             width: auto;
             justify-content:center;
