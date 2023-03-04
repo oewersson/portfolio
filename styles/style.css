@@ -132,6 +132,7 @@
         .cabecalho { 
             padding: 10%;
             width: auto;
+            justify-content:center;
             
             
         }
