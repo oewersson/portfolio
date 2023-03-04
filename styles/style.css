@@ -127,7 +127,7 @@
         font-weight: 400;
     }
 
-     @media (min-width: 250px ) and (max-width: 1200px) {
+     @media (min-width: 250px ) and (max-width: 800px) {
         
         .cabecalho { 
             padding: 10%;
