@@ -10,8 +10,8 @@
   --fonte-secundaria:'Montserrat', sans-serif;
 
   --tamanho-da-fonte-primaria:'24px';
-  --tamanho-da-fonte-secundaria: '';
-  --tamanho-da-fonte-terciaria:'';
+  --tamanho-da-fonte-secundaria:'16px';
+  --tamanho-da-fonte-terciaria:'14px';
 }
 
 * {
@@ -26,7 +26,9 @@
     }
 
     .cabecalho {
-       padding: 2% 0 0 15%; 
+       padding: 5% 0 0 15%;
+       font-size: 1.5rem;
+       font-weight: 600;
     }
 
     .cabecalho__menu {
@@ -36,7 +38,7 @@
 
     .cabecalho__menu__link {
         font-family: var(--fonte-secundaria);
-        font-size: 1.5rem;
+        font-size: var(--tamanho-da-fonte-secundaria);
         font-weight: 600;
         color: var(--cor-terciaria);
         text-decoration: none;        
@@ -93,7 +95,7 @@
     }
 
     .apresentacao__botoes {
-         display: flex;
+        display: flex;
         justify-content: center;
         gap: 16px;
         border: 2px solid var(--cor-terciaria);
@@ -114,7 +116,11 @@
     }
 
     .apresentacao__imagem {
-        width: 50%;
+        position: absolute;
+        width: 488px;
+        height: 550px;
+        left: 1030px;
+        top: 235px;
     }
 
     .rodape {
@@ -127,10 +133,12 @@
         font-weight: 400;
     }
 
-    @media (min-width: 380px ) and (max-width: 1200px) {
+    @media (min-width: 387px ) and (max-width: 1200px) {
+
+
         
         .cabecalho { 
-            padding: 10%;
+            padding: 30%;
             width: auto;
             font-size:1rem;
             
@@ -151,12 +159,14 @@
         }
 
         .apresentacao__imagem {
+            position: absolute;
             width: 50%;
     
            }
-           
+
        .apresentacao__conteudo {
         width: 75%;
+
        }
        
        
