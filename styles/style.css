@@ -118,7 +118,7 @@
     }
 
     .rodape {
-        padding: 24px;
+        padding: 1.5rem;
         color: var(--cor-primaria);
         background-color: var(--cor-terciaria);
         text-align: center;
@@ -132,7 +132,7 @@
         .cabecalho { 
             padding: 10%;
             width: auto;
-            font-size:16px;
+            font-size:1rem;
             
         }
         .cabecalho__menu {
@@ -147,15 +147,17 @@
 
         .apresentacao {
             flex-direction: column-reverse;
-            padding: 5%;
-        
+            padding: 5%;           
         }
+
+        .apresentacao__imagem {
+            width: 50%;
+    
+           }
+           
        .apresentacao__conteudo {
         width: 75%;
        }
        
-       .apresentacao__imagem {
-        width: 50%;
-
-       }
+       
     }
